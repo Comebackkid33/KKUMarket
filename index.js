@@ -37,7 +37,7 @@ app.get('*', function(request, response){
   response.sendFile(__dirname + '/src/ejs/index.ejs')
 });
 
-app.listen(port, function(error) {
+app.listen(process.env.PORT || port, function(error) {
   if (error) {
     console.error(error)
   } else {
