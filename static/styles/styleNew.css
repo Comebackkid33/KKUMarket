@@ -382,19 +382,19 @@ background: none;
     text-align: center;
     position: relative;
 }
-i.glyphicon.glyphicon-cog {
+i.glyphicon.glyphicon-ruble {
     font-size: 3em;
     color: #DCDCDC;
     padding-top: 28px;
     z-index: 99999;
 }
-i.glyphicon.glyphicon-road{
+i.glyphicon.glyphicon-scale{
 	    font-size: 3em;
     color: #DCDCDC;
     padding-top: 28px;
     z-index: 99999;
 }
-i.glyphicon.glyphicon-random{
+i.glyphicon.glyphicon-shopping-cart{
 		    font-size: 3em;
     color: #DCDCDC;
     padding-top: 28px;
