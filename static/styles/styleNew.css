@@ -120,12 +120,11 @@ h2.main-heading {
 h2.main-heading:before {
     content: '';
     width: 143px;
-    height: 2px;
+    height: 3px;
     background: #fff;
     position: absolute;
-    top: 7.1em;
+    top: 6.3em;
     left: 7em;
-    border-radius: 42px;
 }
 h2.main-heading:after {
     content: '';
@@ -133,7 +132,6 @@ h2.main-heading:after {
     height: 3px;
     background: #fff;
     position: absolute;
-     top: 7.1em;
     right: 7em;
 }
 .navbar {
