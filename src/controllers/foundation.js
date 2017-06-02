@@ -13,7 +13,7 @@ module.exports = {
 		console.log(id)
 
 		const params = Object.assign( { idPage: id, title: 'Щебень для фундамента', bodyClass: 'page-index' }, req.params )
-		res.render('foundation', params)
+		res.render('foundationNew', params)
 	}
 
 

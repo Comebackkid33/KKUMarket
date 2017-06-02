@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	padding: 0;
-	font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;
 }
 ul,ol,a,span.i {
 	margin:0;
@@ -23,12 +23,10 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	background:#fff; 
 }
-@font-face {font-family: 'Inconsolata-Regular';
-	src: url(../fonts/Inconsolata-Regular.ttf)format('truetype');
+@font-face {font-family: 'Inconsolata', monospace;
+	src: url(https://fonts.googleapis.com/css?family=Inconsolata);
 }
-@font-face {font-family: 'Inconsolata-Regular';
-	src: url(../fonts/Inconsolata-Regular.ttf)format('truetype');
-}
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -37,7 +35,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .banner {
-	background: url(../static/img/banner1.jpg)no-repeat center top ;
+	background: url(../img/tmp/mt-0486-home-_slide01.jpg)no-repeat center top ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -97,7 +95,7 @@ a i.vimeo:hover {
     text-decoration: none;
 }
 .logo a h1 {
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     font-size: 3.5em;
     color: #535353;
     margin: 0;
@@ -114,7 +112,7 @@ h2.main-heading {
     text-transform: uppercase;
     color: #fff;
     line-height: 1.4em;
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     position: relative;
     margin: 0;
     padding-top: 5em;
@@ -271,7 +269,7 @@ img.zoom-img:hover {
   overflow: hidden;
 }
 .wel-text h3{
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     margin: 0;
     padding-bottom: .6em;
         color: #535353;
@@ -434,7 +432,7 @@ i.glyphicon.glyphicon-random{
   transform: scale(1);
 }
 .service-box h5{
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     color: #535353;
     font-size: 17px;
     font-weight: 600;
@@ -478,7 +476,7 @@ i.glyphicon.glyphicon-random{
     font-size: 2.2em;
     font-weight: 400;
     line-height: 1.3em;
-     font-family: 'Inconsolata-Regular';
+     font-family: 'Inconsolata', monospace;;
 }
 /*--/testmonials--*/
 /*-- news --*/
@@ -486,7 +484,7 @@ i.glyphicon.glyphicon-random{
      padding: 0em 0 5em;
 }
 .news-text h3 {
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     color: #958e71;
     font-size: 40px;
     margin: 0;
@@ -502,7 +500,7 @@ i.glyphicon.glyphicon-random{
     display: block;
 }
 .news-text h5 {
-	 font-family: 'Inconsolata-Regular';
+	 font-family: 'Inconsolata', monospace;;
   color: #969696;
   font-size: 14px;
   margin: 1em 0;
@@ -646,18 +644,18 @@ i.glyphicon.glyphicon-map-marker {
 	line-height: 1.8em;
 }
 .footer-grids h4 {
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     color: #fff;
     font-size: 40px;
     margin: 0;
 }
 .footer-grids h5 {
-	    font-family: 'Inconsolata-Regular';
+	    font-family: 'Inconsolata', monospace;;
 	color: #D0C9AE;
 	font-size: 1em;
 }
 .footer-grids a h5 {
-	    font-family: 'Inconsolata-Regular';
+	    font-family: 'Inconsolata', monospace;;
 	color: #D0C9AE;
 	font-size: 1em;
 }
@@ -754,7 +752,7 @@ i.glyphicon.glyphicon-map-marker {
         min-height: 100px;
 }
 .banner5 h2 {
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     color: #fff;
     text-align: center;
     padding-top: 29px;
@@ -1099,7 +1097,7 @@ nav {
 /*--//blog--*/
 /*--single--*/
 .single-middle h3{
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     font-size: 2.2em;
     color: #958e71;
     text-align: center;
@@ -1170,14 +1168,14 @@ nav {
   margin: 0em 0 3em;
 }
 .single-bottom h3 {
-	    font-family: 'Inconsolata-Regular';
+	    font-family: 'Inconsolata', monospace;;
     font-size: 2.2em;
     color: #958e71;
     text-align: center;
     margin: 0.5em 0 .7em;
 }
 p.reply {
-	font-family: 'Inconsolata-Regular';
+	font-family: 'Inconsolata', monospace;;
     float: right;
     padding: 0;
     width: 17%;
@@ -1337,7 +1335,7 @@ ul.grid-part {
 }
 /*-- mail --*/
 h3.tittle {
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;;
     color: #535353;
     font-size: 2.5em;
     font-weight: 400;
@@ -1362,7 +1360,7 @@ h3.tittle {
     margin-top: 1em;
 }
 .about-top-right h4 {
-    font-family: 'Inconsolata-Regular';
+    font-family: 'Inconsolata', monospace;
     color: #535353;
     font-size: 1.4em;
     font-weight: 100;
@@ -1431,7 +1429,7 @@ h3.tittle {
    position: relative;
 }
 .view a.info {
-	    font-family: 'Inconsolata-Regular';
+	    font-family:'Inconsolata', monospace;
    background:url(../img/link.png) center no-repeat;
    display: inline-block;
    text-decoration: none;
