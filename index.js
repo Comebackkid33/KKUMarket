@@ -34,8 +34,8 @@ app.get('/:id?', notFoundController.default)
 app.use(express.static(__dirname + '/static'))
 
 app.get('*', function(request, response){
-  response.sendFile(__dirname + '/static/index.html')
-})
+  response.sendFile(__dirname + '/src/ejs/index.ejs')
+});
 
 app.listen(port, function(error) {
   if (error) {
