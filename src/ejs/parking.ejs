@@ -1,0 +1,108 @@
+<% include ./partials/head %>
+<% include ./partials/header %>
+
+<h3>Наш ID:
+    <% if (idPage) { %>
+    <%= idPage %>
+    <% } else { %>
+    <%= 'Хуй пойми что' %>
+    <% } %>
+</h3>
+
+<div class="container-fluid" style="background: whitesmoke; min-width: 100vh; min-height: 40px">
+    <div class="row-fluid">
+        <div class="col-lg-12" style="background: whitesmoke">
+
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid" style="background: whitesmoke">
+    <div class="row-fluid">
+        <div class="col-lg-12" style="background: whitesmoke">
+
+            <p class="text-center"><h1>Оформление заказа</h1><br>
+            Известняковый щебень фракции 20-40 мм для отсыпки парковочного места</p>
+
+
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid" style="background: whitesmoke; min-width: 100vh; min-height: 40px">
+    <div class="row-fluid">
+        <div class="col-lg-12" style="background: whitesmoke">
+
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid" style="background: whitesmoke;">
+    <div class="row-fluid">
+        <div class="col-lg-7" style="background: white">
+            <iframe width="100%" height="382" src="https://www.youtube.com/embed/6v2L2UGZJAM" frameborder="0" allowfullscreen></iframe>
+            <p class="text-center"> Для отсыпки парковочного места используется <br>
+                щебень фракции 20-40 мм</p>
+        </div>
+
+
+        <div class="col-lg-2" style="background: whitesmoke; min-width: 50px; min-height: 100%">
+        </div>
+
+
+        <div class="col-lg-5" style="background: white; min-height: 439px">
+            <p class="text-center"><b>Для расчета необходимого объема щебня заполните поля:</b></p>
+            <p class="text-center">Введите размеры парковочного места:</p>
+
+            <form class="form-inline" style="min-height: 50px">
+                <div class="form-group">
+                    <label for="length">Длина, мм</label>
+                    <input type="text" class="form-control" id="length">
+                </div>
+            </form>
+            <form class="form-inline" style="min-height: 50px">
+                <div class="form-group">
+                    <label for="width">Ширина, мм</label>
+                    <input type="text" class="form-control" id="width">
+                </div>
+            </form>
+            <form class="form-inline" style="min-height: 50px">
+                <div class="form-group">
+                    <label for="height">Высота, мм</label>
+                    <input type="text" class="form-control" id="height">
+                </div>
+            </form>
+            <form class="form-inline" style="min-height: 50px">
+                <div class="form-group">
+                    <label for="result">Необходимый объем щебня, т</label>
+                    <input type="text" class="form-control" id="result">
+                    <button type="button" class="btn btn-success " id="calc"  onclick="calcRoad()">Расчитать объем</button>
+                </div>
+            </form>
+
+
+            <a href="/shipment" type="button" class="btn btn-warning  btn-block">Выбрать фасовку и способ доставки</a>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="container-fluid" style="background: whitesmoke; min-width: 100vh; min-height: 40px">
+    <div class="row-fluid">
+        <div class="col-lg-12" style="background: whitesmoke">
+
+        </div>
+
+    </div>
+</div>
+
+<% include ./partials/footer %>
+<% include ./partials/common_scripts %>
+<% include ./partials/foot %>
+

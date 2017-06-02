@@ -1,0 +1,19 @@
+{
+  "name": "dating",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "ejs-locals": "^1.0.2",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "nodemailer": "~3.1.8",
+    "serve-favicon": "~2.3.2"
+  }
+}
