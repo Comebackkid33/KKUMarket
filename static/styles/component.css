@@ -35,16 +35,14 @@
 }
 
 .grid figcaption h3 {
-	    font-family: 'Inconsolata-Regular';
+	    font-family: 'Inconsolata', monospace;;
     margin: 0;
     padding: 0;
     color: #fff;
     padding-bottom: 5px;
 }
 
-.grid figcaption span:before {
-	content: 'by ';
-}
+
 
 a.more{
 	text-align: center;
