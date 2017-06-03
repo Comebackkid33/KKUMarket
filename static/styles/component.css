@@ -45,6 +45,7 @@
 
 
 a.more{
+    margin-left: 50px;
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
@@ -319,8 +320,10 @@ a.more{
 }
 
 .cs-style-6 figcaption h3 {
-    margin-top: 53%;
-        cursor: pointer;
+    margin-top: 45%;
+    margin-right: 80px;
+
+    cursor: pointer;
 }
 
 .cs-style-6 figcaption a {
