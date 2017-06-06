@@ -1,18 +1,23 @@
-
-
-
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="/scripts/jquery-2.1.4.min.js"></script>
 <script src="/scripts/bootstrap.min.js"></script>
-
 <script type="text/javascript" src="/scripts/move-top.js"></script>
 <script type="text/javascript" src="/scripts/easing.js"></script>
 <script src="/scripts/modernizr.custom.js"></script>
 <!--/script-->
 <script src="/scripts/calculatemodule.js"></script>
 <script src="/scripts/storagemodule.js"></script>
-
 <!-- скрипт нужен чтобы получать текущий IP-->
 <script type="text/javascript"
         src="http://ip-jobs.staff-base.spb.ru/ip.cgi"></script>
+
+<script >
+    $(document).ready(function() {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+        });
+    });
+</script>
 
 

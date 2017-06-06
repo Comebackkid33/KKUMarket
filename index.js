@@ -26,7 +26,7 @@ const parkingController = require('./src/controllers/parking')
 app.get('/parking/:id?', parkingController.default)
 
 const RoadController = require('./src/controllers/road')
-app.get('/road/:id?', parkingController.default)
+app.get('/road/:id?', RoadController.default)
 
 const notFoundController = require('./src/controllers/notfound')
 app.get('/:id?', notFoundController.default)
